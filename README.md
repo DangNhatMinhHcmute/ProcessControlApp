@@ -1,25 +1,39 @@
 # ProcessControlApp
-Copyright (c) 2026, Nhat Minh Dang
-All rights reserved.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
+A Python software developed for Process Mining Data.
+This repository contains the source code, example data, and instructions to reproduce the results reported in the paper:
 
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in
-      the documentation and/or other materials provided with the distribution
+**"[Paper Title]"**  
+Author1, Author2, ...  
+Journal / Conference, Year
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
+---
+
+## 1. Overview
+
+This software was developed to [state the exact purpose clearly].
+
+Main capabilities:
+- [Function 1]
+- [Function 2]
+- [Function 3]
+
+Typical applications:
+- [Application 1]
+- [Application 2]
+
+---
+
+## 2. Repository Structure
+
+```text
+project_name/
+├─ src/                  # main source code
+├─ examples/             # example scripts
+├─ data_sample/          # sample input data
+├─ output_demo/          # example outputs
+├─ figures/              # figures used in README or paper
+├─ requirements.txt      # Python dependencies
+├─ README.md
+├─ LICENSE
+└─ CITATION.cff

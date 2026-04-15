@@ -1,39 +1,24 @@
-# ProcessControlApp
+# Process Management Application
 
-A Python software developed for Process Mining Data.
-This repository contains the source code, example data, and instructions to reproduce the results reported in the paper:
+## Overview
+This application is designed to support process analysis and process configuration management from log files. Users can create a new analysis from `.csv` or `.xlsx` files, or reopen a previously saved configuration from a `.json` file.
 
-**"[Paper Title]"**  
-Author1, Author2, ...  
-Journal / Conference, Year
+## System Requirements
+- Windows 10 or later
+- Internet connection for installing required libraries
+- Administrator privileges may be required
 
----
+## Installation
 
-## 1. Overview
+### 1. Install Python
+1. Visit the official Python website:  
+   `https://www.python.org/downloads/`
+2. Download Python 3.10 or later.
+3. During installation:
+   - Check **"Add Python to PATH"**
+   - Click **"Install Now"**
+4. Verify installation in Command Prompt:
 
-This software was developed to [state the exact purpose clearly].
-
-Main capabilities:
-- [Function 1]
-- [Function 2]
-- [Function 3]
-
-Typical applications:
-- [Application 1]
-- [Application 2]
-
----
-
-## 2. Repository Structure
-
-```text
-project_name/
-├─ src/                  # main source code
-├─ examples/             # example scripts
-├─ data_sample/          # sample input data
-├─ output_demo/          # example outputs
-├─ figures/              # figures used in README or paper
-├─ requirements.txt      # Python dependencies
-├─ README.md
-├─ LICENSE
-└─ CITATION.cff
+```bash
+python --version
+pip --version

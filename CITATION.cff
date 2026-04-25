@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Process Control Application"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Dang"
+    given-names: "Nhat Minh"
+version: "1.0.0"
+date-released: 2026-04-25
+license: "MIT"
+url: "https://github.com/DangNhatMinhHcmute/ProcessControlApp"
+abstract: "A Python-based desktop application for process analysis and process improvement from event log data."
+keywords:
+  - process mining
+  - process control
+  - event log
+  - process analysis
+  - Python

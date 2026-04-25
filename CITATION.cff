@@ -1,5 +1,5 @@
-cff-version: 1.2.0
-title: "Process Control Application"
+cff-version: 1.0.1
+title: "Development of Business Process Models and Software Systems to Support Chemical Trading Operations in a Multinational Company"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -10,7 +10,22 @@ date-released: 2026-04-25
 license: "MIT"
 repository-code: "https://github.com/DangNhatMinhHcmute/ProcessControlApp"
 doi: "10.5281/zenodo.19767827"
-abstract: "A Python-based desktop application for process analysis and process improvement from event log data."
+abstract: "Procurement activities in multinational chemical companies are typically characterized by high levels of complexity and dynamic 
+operational conditions. In many cases, noticeable discrepancies arise between formally defined procedures and their actual execution, which 
+may lead to inefficiencies, longer processing times, and potential compliance risks within Procure-to-Pay (Pr2P) operations. Although process 
+mining has become an effective technique for examining business processes, much of the existing research mainly concentrates on process 
+discovery and provides limited support for integrated performance analysis and decision-making in real operational settings. To overcome 
+this limitation, this study introduces a data-driven analytical framework that combines process mining techniques with performance evaluation 
+and software-based decision support to improve transparency and operational efficiency in procurement management. Real event log data collected 
+from a multinational chemical company are analyzed to identify the actual P2P workflow and assess its conformance with the reference process model. 
+Process behavior is modeled using Petri Net and Business Process Model and Notation (BPMN), while synchronization-based conformance checking is 
+employed to detect deviations, rework occurrences, and non-compliant executions. In addition, performance indicators such as cycle time and throughput 
+time are evaluated to identify bottlenecks and operational delays. A software prototype developed in Python, integrating the PM4Py library 
+and additional data analytics modules, is implemented to facilitate interactive process discovery, visualization, and performance assessment. 
+The empirical findings reveal considerable deviations from the standard P2P workflow, with invoice-related activities particularly invoice receipt recording, 
+invoice payment, and payment block removal identified as the primary sources of excessive processing time. 
+Overall, the proposed framework provides actionable managerial insights and supports continuous monitoring, compliance evaluation, 
+and data-driven improvement of procurement processes in large-scale industrial contexts."
 keywords:
   - process mining
   - Purchase-to-pay process

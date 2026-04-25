@@ -5,10 +5,11 @@ type: software
 authors:
   - family-names: "Dang"
     given-names: "Nhat Minh"
-version: "1.0.0"
+version: "1.0.1"
 date-released: 2026-04-25
 license: "MIT"
-url: "https://github.com/DangNhatMinhHcmute/ProcessControlApp"
+repository-code: "https://github.com/DangNhatMinhHcmute/ProcessControlApp"
+doi: "10.5281/zenodo.19767827"
 abstract: "A Python-based desktop application for process analysis and process improvement from event log data."
 keywords:
   - process mining

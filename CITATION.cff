@@ -13,7 +13,7 @@ doi: "10.5281/zenodo.19767827"
 abstract: "A Python-based desktop application for process analysis and process improvement from event log data."
 keywords:
   - process mining
-  - process control
-  - event log
-  - process analysis
-  - Python
+  - Purchase-to-pay process
+  - Conformance checking
+  - Performance analysis
+  - Business process improvement

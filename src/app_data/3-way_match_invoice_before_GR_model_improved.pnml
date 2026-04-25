@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1750686016.9430215" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1750686016.9430215</text>
+    </name>
+    <page id="n0">
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p14">
+        <name>
+          <text>p14</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <transition id="v2">
+        <name>
+          <text>v2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b98b8b13-69ea-44b0-a451-a9404b52b417"/>
+      </transition>
+      <transition id="t5">
+        <name>
+          <text>t5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4902f97-2925-4d94-b72e-42cb24547b8f"/>
+      </transition>
+      <transition id="Delete Purchase Order Item">
+        <name>
+          <text>Delete Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="t9">
+        <name>
+          <text>t9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5d592071-09f9-4e05-8f15-fb61949ac1e4"/>
+      </transition>
+      <transition id="v1">
+        <name>
+          <text>v1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dd83a44b-ce09-4f82-a964-715aefea66b2"/>
+      </transition>
+      <transition id="Create Purchase Order Item">
+        <name>
+          <text>Create Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="Create Purchase Requisition Item">
+        <name>
+          <text>Create Purchase Requisition Item</text>
+        </name>
+      </transition>
+      <transition id="Clear Invoice">
+        <name>
+          <text>Clear Invoice</text>
+        </name>
+      </transition>
+      <transition id="Vendor creates invoice">
+        <name>
+          <text>Vendor creates invoice</text>
+        </name>
+      </transition>
+      <transition id="t8">
+        <name>
+          <text>t8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="217c34d6-cc4f-4aeb-9a3d-39d4fc0d7c8a"/>
+      </transition>
+      <transition id="Record Goods Receipt">
+        <name>
+          <text>Record Goods Receipt</text>
+        </name>
+      </transition>
+      <transition id="Remove Payment Block">
+        <name>
+          <text>Remove Payment Block</text>
+        </name>
+      </transition>
+      <transition id="Record Invoice Receipt">
+        <name>
+          <text>Record Invoice Receipt</text>
+        </name>
+      </transition>
+      <transition id="Receive Order Confirmation">
+        <name>
+          <text>Receive Order Confirmation</text>
+        </name>
+      </transition>
+      <arc id="134347657972240" source="p_13" target="v1"/>
+      <arc id="134347657970448" source="Create Purchase Requisition Item" target="p_12"/>
+      <arc id="134347657969936" source="Remove Payment Block" target="p_10"/>
+      <arc id="134347643672336" source="t9" target="p14"/>
+      <arc id="134347657971088" source="p_10" target="Clear Invoice"/>
+      <arc id="134347657972496" source="t5" target="p_10"/>
+      <arc id="134347657973008" source="p_7" target="Vendor creates invoice"/>
+      <arc id="134347657973776" source="p_9" target="t5"/>
+      <arc id="134347657973392" source="p_12" target="Create Purchase Order Item"/>
+      <arc id="134347657973904" source="Create Purchase Order Item" target="p_11"/>
+      <arc id="134346905093072" source="v2" target="p_7"/>
+      <arc id="134347657971024" source="v1" target="p_9"/>
+      <arc id="134347657971280" source="p_11" target="Receive Order Confirmation"/>
+      <arc id="134347657972304" source="Delete Purchase Order Item" target="sink"/>
+      <arc id="134346833930704" source="p14" target="v2"/>
+      <arc id="134347657972048" source="p_9" target="Remove Payment Block"/>
+      <arc id="134347657971536" source="Vendor creates invoice" target="p_8"/>
+      <arc id="134347657972688" source="source" target="t8"/>
+      <arc id="134347657971664" source="Record Invoice Receipt" target="p_13"/>
+      <arc id="134347657970512" source="p_6" target="v1"/>
+      <arc id="134347657970256" source="p_11" target="Delete Purchase Order Item"/>
+      <arc id="134347657970896" source="source" target="Create Purchase Requisition Item"/>
+      <arc id="134347657970640" source="p_8" target="Record Invoice Receipt"/>
+      <arc id="134347657971792" source="p_11" target="t9"/>
+      <arc id="134347657971920" source="t8" target="p_12"/>
+      <arc id="134347643668688" source="v2" target="p_5"/>
+      <arc id="134347657972432" source="Clear Invoice" target="sink"/>
+      <arc id="134347657972816" source="p_5" target="Record Goods Receipt"/>
+      <arc id="134347036142928" source="Receive Order Confirmation" target="p14"/>
+      <arc id="134347657973200" source="Record Goods Receipt" target="p_6"/>
+    </page>
+  </net>
+</pnml>

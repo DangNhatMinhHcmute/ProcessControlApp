@@ -1,0 +1,6 @@
+pandas
+matplotlib
+numpy
+pillow
+pm4py
+graphviz

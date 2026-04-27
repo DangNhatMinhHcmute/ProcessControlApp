@@ -47,6 +47,7 @@ ProcessControlApp/
 │   ├── required_libraries.txt
 │   ├── README.txt
 │   └── app_data/
+│   └── __pycache__/
 ├── images/
 └── docs/
 ```

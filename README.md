@@ -46,7 +46,7 @@ ProcessControlApp/
 │   ├── run_app.bat
 │   ├── required_libraries.txt
 │   ├── README.txt
-│   └── app_data/
+│   ├── app_data/
 │   └── __pycache__/
 ├── images/
 └── docs/

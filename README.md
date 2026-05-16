@@ -170,4 +170,4 @@ The `docs` folder contains the detailed user guide in Word format.
 
 If you use this software in your research, please cite:
 
-Dang, N. M. (2026). Process Control Application (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.19767827
+Dang, N. M. (2026). Process Control Application (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.20243051
